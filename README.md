@@ -1,5 +1,6 @@
 # DBMS-Lab-JSSSTU
-Sailors Database
+##Sailors Database
+
 Write ER diagram and schema diagram. The primary keys are underlined and the data types are specified. Create tables for the following schema listed below by properly specifying the primary keys and foreign keys. Enter at least five tuples for each relation.
 
 Sailors database
@@ -16,7 +17,9 @@ Find the name and age of the oldest sailor.
 For each boat which was reserved by at least 5 sailors with age >= 40, find the boat id and the average age of such sailors.
 Create a view that shows the names and colours of all the boats that have been reserved by a sailor with a specific rating.
 A trigger that prevents boats from being deleted If they have active reservations.
-Insurance Database
+
+
+##Insurance Database
 Consider the database schemas given below. Write ER diagram and schema diagram. The primary keys are underlined and the data types are specified. Create tables for the following schema listed below by properly specifying the primary keys and foreign keys. Enter at least five tuples for each relation.
 Insurance database
 
@@ -34,7 +37,9 @@ Delete the Mazda belonging to “Smith”.
 Update the damage amount for the car with license number “KA09MA1234” in the accident with report.
 A view that shows models and year of cars that are involved in accident.
 A trigger that prevents a driver from participating in more than 3 accidents in a given year.
-Order Processing Database
+
+
+##Order Processing Database
 3.Write ER diagram and schema diagram. The primary keys are underlined and the data types are specified. Create tables for the following schema listed below by properly specifying the primary keys and foreign keys. Enter at least five tuples for each relation. Order processing database
 
 Customer (Cust#:int, cname: string, city: string)
@@ -52,7 +57,9 @@ Delete all orders for customer named "Kumar".
 Find the item with the maximum unit price.
 A tigger that updates order_amount based on quantity and unit price of order_item .
 Create a view to display orderID and shipment date of all orders shipped from a warehouse 5.
-Enrollment Database
+
+
+##Enrollment Database
 4.Write ER diagram and schema diagram. The primary keys are underlined and the data types are specified. Create tables for the following schema listed below by properly specifying the primary keys and foreign keys. Enter at least five tuples for each relation.
 
 Student enrollment in courses and books adopted for each course
@@ -70,7 +77,9 @@ List any department that has all its adopted books published by a specific publi
 List the students who have scored maximum marks in ‘DBMS’ course.
 Create a view to display all the courses opted by a student along with marks obtained.
 Create a trigger that prevents a student from enrolling in a course if the marks pre_requisit is less than the given 40 .
-Company Database
+
+
+##Company Database
 5.Write ER diagram and schema diagram. The primary keys are underlined and the data types are specified. Create tables for the following schema listed below by properly specifying the primary keys and foreign keys. Enter at least five tuples for each relation.
 
 Company Database:
